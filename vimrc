@@ -71,7 +71,7 @@ map <silent><F2> :PREVCOLOR<cr>
 
 " Add some custom syntax highlighting
 function! Reloadsyn()
-    syn  keyword myTodo DEBUG containedin=ALL
+    syn  keyword myTodo DEBUG NOTE containedin=ALL
     hi def link myTodo Todo
 endfunction
 au BufEnter *.* call Reloadsyn()
