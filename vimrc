@@ -90,7 +90,8 @@ nmap <C-c><C-c> :!perl -Wc %
 set equalprg=perltidy
 
 " Load up VIM powerline
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+"set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim/
 set laststatus=2
 
 " Add Stuff for gundo.vim
