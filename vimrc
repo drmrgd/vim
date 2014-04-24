@@ -76,20 +76,11 @@ function! Reloadsyn()
 endfunction
 au BufEnter *.* call Reloadsyn()
 
-if !exists("autocmd_colorscheme_loaded")
-    let autocmd_colorscheme_loaded = 1
-    autocmd ColorScheme * highlight TodoRed      cterm=bold ctermbg=yellow ctermfg=darkred
-    autocmd ColorScheme * highlight TodoOrange   cterm=bold ctermbg=yellow ctermfg=darkmagenta
-    autocmd ColorScheme * highlight TodoYellow   cterm=bold ctermbg=yellow ctermfg=lightcyan
-endif
-if has("autocmd")
-    autocmd Syntax * call matchadd('TodoRed', '\W\zs\(TODO\|FIXMD\|XXX\)')
-endif
-
 " Color Scheme Stuff
-"syntax enable
+syntax enable
 set t_Co=256
 set background=dark
+"color ir_black
 color molokai
 
 " Run Perl syntax check
@@ -99,6 +90,7 @@ nmap <C-c><C-c> :!perl -Wc %
 set equalprg=perltidy
 
 " Load up VIM powerline
+"set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
 set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim/
 set laststatus=2
 
