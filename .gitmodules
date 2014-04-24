@@ -1,27 +1,27 @@
 [submodule "bundle/gundo"]
-	path = bundle/gundo
+	path = $HOME/Dropbox/git_repos/vim/bundle/gundo
 	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/gundo.git"]
-	path = bundle/gundo.git
+	path = $HOME/Dropbox/git_repos/vim/bundle/gundo.git
 	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/gundo.vim"]
-	path = bundle/gundo.vim
+	path = $HOME/Dropbox/git_repos/vim/bundle/gundo.vim
 	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+	path = $HOME/Dropbox/git_repos/vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = $HOME/Dropbox/git_repos/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
+	path = $HOME/Dropbox/git_repos/vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
+	path = $HOME/Dropbox/git_repos/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = $HOME/Dropbox/git_repos/vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/powerline"]
-	path = bundle/powerline
+	path = $HOME/Dropbox/git_repos/vim/bundle/powerline
 	url = https://github.com/Lokaltog/powerline.git
